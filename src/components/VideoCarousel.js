@@ -21,6 +21,22 @@ const VideoCarousel = () => {
 
   const { isEnd, isLastVideo, startPlay, videoId, isPlaying } = video;
 
+  useGSAP(() => {
+    gsap.to("#video", {
+      scrollTrigger: {
+        trigger: "#video",
+        toggleActions: "restart none none none",
+      },
+      onComplete: () => {
+        setVideo((pre) => ({
+          ...pre,
+          startPlay: true,
+          isPlaying: true,
+        }));
+      },
+    });
+  });
+
   useEffect(() => {
     if (loadedData.length > 3) {
       if (!isPlaying) {
@@ -30,6 +46,8 @@ const VideoCarousel = () => {
       }
     }
   }, [startPlay, videoId, isPlaying, loadedData]);
+
+  const handleLoadededMetaData = (i, e) => setLoadedData((pre) => [...pre, e]);
 
   useEffect(() => {
     const currentProgress = 0;
@@ -99,6 +117,9 @@ const VideoCarousel = () => {
                       ...prevVideo,
                       isPlaying: true,
                     }));
+                  }}
+                  onLoadedMetadata={(e) => {
+                    handleLoadededMetaData(i, e);
                   }}
                 >
                   <source src={list.video} type="video/mp4" />
