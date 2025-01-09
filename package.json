@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.1",
+    "@react-three/drei": "^9.120.6",
     "@react-three/fiber": "^8.17.10",
     "@sentry/react": "^8.47.0",
     "@sentry/vite-plugin": "^2.22.7",

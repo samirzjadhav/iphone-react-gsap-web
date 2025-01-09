@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import ModelView from "./ModelView";
 import { useState } from "react";
 import { yellowImg } from "../utils";
@@ -17,6 +17,8 @@ const Model = () => {
 
   const cameraControlSmall = useRef();
   const cameraControlLarge = useRef();
+
+  const small = useRef();
 
   useGSAP(() => {
     gsap.to(
