@@ -5,6 +5,11 @@ import ModelView from "./ModelView";
 import { useState } from "react";
 import { yellowImg } from "../utils";
 
+import * as THREE from "three";
+import { Canvas } from "@react-three/fiber";
+import { View } from "@react-three/drei";
+import { models, sizes } from "../constants";
+
 const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
@@ -14,11 +19,16 @@ const Model = () => {
   });
 
   // Camera Control for the model view
-
   const cameraControlSmall = useRef();
   const cameraControlLarge = useRef();
 
-  const small = useRef();
+  // Model
+  const small = useRef(new THREE.Group());
+  const large = useRef(new THREE.Group());
+
+  // rotation
+  const [smallRotation, setSmallRotation] = useState(0);
+  const [largeRotation, setlargeRotation] = useState(0);
 
   useGSAP(() => {
     gsap.to(
