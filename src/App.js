@@ -5,6 +5,7 @@ import Highlight from "./components/Highlight";
 import Model from "./components/Model";
 import Features from "./components/Features";
 import HowItWork from "./components/HowItWork";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Model />
       <Features />
       <HowItWork />
+      <Footer />
     </main>
   );
 }
