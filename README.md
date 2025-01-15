@@ -1,6 +1,6 @@
 # iPhone 15 Pro Website Clone 🚀
 
-![iPhone 15 Pro Hero](./public/iPhone-website.png)  
+![iPhone 15 Pro Hero](./src/assets/images/iPhone-website.png)  
 _A visually captivating replica of the iPhone 15 Pro website, featuring cutting-edge animations and 3D interactions._
 
 ---
@@ -53,11 +53,10 @@ Inspired by a tutorial from **JavaScript Mastery**, this project demonstrates ad
 Follow these steps to set up and run the project locally:
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/samirzjadhav/iphone-react-gsap-web.git
    ```
-
-````
 
 2. **Navigate to the project directory:**
 
@@ -122,5 +121,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Thank you for exploring the **iPhone 15 Pro Website Clone**!
 Feel free to share your feedback or reach out for collaboration. 🚀
+
+```
 
 ```
