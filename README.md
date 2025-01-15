@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+```markdown
+# iPhone 15 Pro Website Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![iPhone 15 Pro Hero](./src/assets/images/iPhone-website.png)  
+_A stunning visual of the iPhone 15 Pro website showcasing animations and 3D models._
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🤖 Introduction
 
-### `npm start`
+This project highlights the effective use of **GSAP (Greensock Animations)** and **Three.js** to create an engaging user experience. It includes dynamic rendering of iPhone 15 Pro models, showcasing various colors and shapes, and a custom-built video carousel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📚 Built and Learned with JavaScript Mastery
 
-### `npm test`
+This website was built following a tutorial from **JavaScript Mastery**, a platform dedicated to teaching developers modern web development techniques. The tutorial provided valuable insights into using advanced tools like **React Three Fiber**, **GSAP**, and **Three.js** for creating visually stunning web experiences.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you're looking to enhance your JavaScript and React skills, check out **JavaScript Mastery's tutorials** for hands-on learning!
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js**
+- **Three.js**
+- **React Three Fiber**
+- **React Three Drei**
+- **GSAP (Greensock)**
+- **Vite**
+- **Tailwind CSS**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔋 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **👉 Beautiful Subtle Smooth Animations using GSAP**  
+  Enhanced user experience with seamless and captivating animations powered by GSAP.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **👉 3D Model Rendering with Different Colors and Sizes**  
+  Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **👉 Custom Video Carousel (Made with GSAP)**  
+  Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **👉 Completely Responsive**  
+  Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 
-## Learn More
+- **👉 Code Architecture and Reusability**  
+  Structured codebase with reusable components for scalability and maintainability.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤸 Quick Start
 
-### Code Splitting
+Follow these steps to set up the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/samirzjadhav/iphone-react-gsap-web.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd iphone-react-gsap-web
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open your browser and visit:**
+   ```
+   http://localhost:3000
+   ```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🌐 Live Demo
 
-### Making a Progressive Web App
+[View the live demo](https://github.com/samirzjadhav/iphone-react-gsap-web)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🛠️ Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to fork this repository, submit issues, or make pull requests to improve the project.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+Thank you for exploring the **iPhone 15 Pro Website Clone**! 🚀
+```
