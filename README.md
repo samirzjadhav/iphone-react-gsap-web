@@ -100,7 +100,8 @@ Follow these steps to set up and run the project locally:
 
 ## 👨‍💻 Author
 
-Created with ❤️ by **Samir Z Jadhav**.
+Created with ❤️ by [Samir Z Jadhav](https://portfolio-nu-five-95.vercel.app/).
+
 Feel free to star ⭐ the repository if you find this project helpful!
 
 ---
@@ -122,6 +123,3 @@ This project is licensed under the [MIT License](LICENSE).
 Thank you for exploring the **iPhone 15 Pro Website Clone**!
 Feel free to share your feedback or reach out for collaboration. 🚀
 
-```
-
-```
