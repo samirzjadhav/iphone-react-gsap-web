@@ -100,7 +100,7 @@ Follow these steps to set up and run the project locally:
 
 ## 👨‍💻 Author
 
-Created with ❤️ by [Samir Z Jadhav](https://portfolio-nu-five-95.vercel.app/).
+Created with ❤️ by [Samir Z Jadhav](https://samirj.vercel.app/).
 
 Feel free to star ⭐ the repository if you find this project helpful!
 
