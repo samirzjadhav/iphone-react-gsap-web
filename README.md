@@ -1,4 +1,3 @@
-````markdown
 # iPhone 15 Pro Website Clone 🚀
 
 ![iPhone 15 Pro Hero](./public/iPhone-website.png)  
@@ -57,6 +56,7 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/samirzjadhav/iphone-react-gsap-web.git
    ```
+
 ````
 
 2. **Navigate to the project directory:**
@@ -101,7 +101,7 @@ Follow these steps to set up and run the project locally:
 
 ## 👨‍💻 Author
 
-Created with ❤️ by **Samir Z Jadhav**.  
+Created with ❤️ by **Samir Z Jadhav**.
 Feel free to star ⭐ the repository if you find this project helpful!
 
 ---
@@ -120,9 +120,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Thank You
 
-Thank you for exploring the **iPhone 15 Pro Website Clone**!  
+Thank you for exploring the **iPhone 15 Pro Website Clone**!
 Feel free to share your feedback or reach out for collaboration. 🚀
-
-```
 
 ```
