@@ -29,6 +29,30 @@ Inspired by a tutorial from **JavaScript Mastery**, this project demonstrates ad
 
 ---
 
+## 📦 Dependencies
+
+Here are the dependencies used in this project:
+
+```json
+"dependencies": {
+  "@gsap/react": "^2.1.0",
+  "@react-three/drei": "^9.101.0",
+  "@react-three/fiber": "^8.15.19",
+  "@sentry/cli": "^2.40.0",
+  "@sentry/react": "^7.120.3",
+  "@sentry/vite-plugin": "^2.14.3",
+  "@types/react": "^18.2.56",
+  "@types/react-dom": "^18.2.19",
+  "cra-template": "1.2.0",
+  "gsap": "^3.12.5",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-scripts": "5.0.1",
+  "three": "^0.162.0"
+}
+```
+
+
 ## 🔋 Features
 
 - **👉 Smooth GSAP Animations**  
