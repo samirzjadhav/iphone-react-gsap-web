@@ -7,8 +7,6 @@ import Features from "./components/Features";
 import HowItWork from "./components/HowItWork";
 import Footer from "./components/Footer";
 
-import * as Sentry from "@sentry/react";
-
 function App() {
   return (
     <main className="bg-black">
@@ -23,4 +21,4 @@ function App() {
   );
 }
 
-export default Sentry.withProfiler(App);
+export default App;
